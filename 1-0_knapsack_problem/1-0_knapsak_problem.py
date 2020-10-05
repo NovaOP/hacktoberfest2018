@@ -1,7 +1,7 @@
-""" Knapsack problem by dynamic programming """
+""" Knapsack Problem by Dynamic Programming """
 weight = [1,3,4,5]
 value = [1,4,5,7]
-n = len(weight)+1
+n = len(weight) + 1
 max_wt = 7
 v = [[0 for j in range(max_wt+1)] for i in range(n)]
 
